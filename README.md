@@ -1,2 +1,3 @@
-# Sincronizador
-De forma resumida, é um programa com o poder de sincronizar uma hora com um momento específico do vídeo.
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Is4cz/Is4cz/main/pag.gif">
+</div>
