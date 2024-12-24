@@ -1,17 +1,18 @@
-# Synchronizer
-The main (and only) functionality is to synchronize time and video, that is, if you want the video to arrive at a **specific** time at 00:00, this program was made for that!!
 
-### How it works
-- With the time and moment of the video, it uses a calculation involving multiplication to transform the two things "into the same format", then it does the subtraction and uses more calculation involving division to transform the formatted time back into what we know as *"XX:XX:XX"*.
-- Then it waits for the correct time, and when it arrives it presses "K" and plays the video **(It is expected to be used in the YouTube)**.
+# Sincronizador
+A principal (e única) funcionabilidade é sincronizar hora e vídeo, ou seja, se você quer que às 00:00 ele o vídeo chegue a um momento **específico** este programa foi feito para isso!!
 
-### How to use
-1. Start the program executable.
-2. Add the specific moment of the video in the first field, for example: `hours:minutes:seconds`
-3. Add the specific frame of the video in the second field, if you don't have one, set it to 1. (If you don't know, you can go to YouTube and go through the frames using `,` and `.`, then see when the seconds change)
-4. Add the fps of the video in the third field, to find out, right-click and click on "Statistics for Nerds". Then locate the "Current / Optimal Res" section and then the fps, which is after the `@`. Example: Current / Optimal Res 2560x1440@**60**.
-5. Add the chosen time in the fourth field, in the same way as in step 2.
-6. The last one is a checkbox, where you can decide. If checked, it will go to the other tab to wait for the moment to play, if unchecked, it will just calculate and give you the right moment to play.
+### Como funciona
+- Com a hora e o momento do vídeo em mãos ele utiliza um cálculo envolvendo múltiplicações para transformar as duas coisas "no mesmo formato" então faz a subtração e utiliza mais cálculo envolvendo divisão para transformar de volta a hora formatada no o que conhecemos *"XX:XX:XX"*.
+- Então ele aguarda a hora correta, para quando chegar ele pressionar o "K" e dar play no vídeo **(Espera-se que seja utilizado no player do Youtube)**.
 
-### Warning
-- The calculation involving frames is not precise, depending on the value it may advance or delay some frames. However, this is not a cause for concern, since the advance or delay is not very noticeable to human vision. I believe this happens due to the division that occurs during the calculation after the subtraction.
+### Como utilizar
+1. Inicie o executável do programa.
+2. Adicione o momento específico do vídeo no primeiro campo, exemplo: horas:minutos:segundos
+3. Adicione o frame específico do vídeo no segundo campo, caso não tenha um coloque em 1. (Caso não saíba pode ir no Youtube e passar os frames usando `,` e `.`, então observar quando os segundos trocam)
+4. Adicione o fps do vídeo no terceiro campo, para saber aperte com o botão direito do mouse e clique em "Estatítica para Nerds". Então localize a sessão "Current / Optimal Res" e então o fps, que fica após o `@`. Exemplo: Current / Optimal Res 2560x1440@**60**.
+5. Adicione a hora escolhida no quarto campo, da mesma forma que no passo 2.
+6. A última é uma caixinha de marcar, em que você pode decidir. Caso marcado ele irá para a outra aba aguardar o momento para dar o play, caso desmarcado ele irá apenas calcular e te entregar o momento certo para dar o play.
+
+### Aviso
+- O cálculo envolvendo frames não é tão preciso, dependendo do valor pode adiantar ou atrasar alguns frames. Porém não é motivo de tanta preucupação, já que o adiantamento ou atraso não é tão perceptível a visão humana. Acredito que isso aconteça pela divisão que ocorre durante o cálculo após a subtração.
