@@ -16,3 +16,6 @@ A principal (e única) funcionabilidade é sincronizar hora e vídeo, ou seja, s
 
 ### Aviso
 - O cálculo envolvendo frames não é tão preciso, dependendo do valor pode adiantar ou atrasar alguns frames. Porém não é motivo de tanta preucupação, já que o adiantamento ou atraso não é tão perceptível a visão humana. Acredito que isso aconteça pela divisão que ocorre durante o cálculo após a subtração.
+
+### Aviso 2
+- **Por a versão exe não ter um certificado é normal que o Windows Security acredite que seja um vírus, porém não é. É apenas um alarme falso**
