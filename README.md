@@ -8,8 +8,8 @@ A principal (e única) funcionabilidade é sincronizar hora e vídeo, ou seja, s
 
 ### Como utilizar
 1. Inicie o executável do programa.
-2. Adicione o momento específico do vídeo no primeiro campo, exemplo: horas:minutos:segundos
-3. Adicione o frame específico do vídeo no segundo campo, caso não tenha um coloque em 1. (Caso não saíba pode ir no Youtube e passar os frames usando `,` e `.`, então observar quando os segundos trocam)
+2. Adicione o momento específico do vídeo no primeiro campo, exemplo: horas:minutos:segundos.
+3. Adicione o frame específico do vídeo no segundo campo, caso não tenha um coloque em 1. (Caso não saíba pode ir no Youtube e passar os frames usando `,` e `.`, então observar quando os segundos trocam).
 4. Adicione o fps do vídeo no terceiro campo, para saber aperte com o botão direito do mouse e clique em "Estatítica para Nerds". Então localize a sessão "Current / Optimal Res" e então o fps, que fica após o `@`. Exemplo: Current / Optimal Res 2560x1440@**60**.
 5. Adicione a hora escolhida no quarto campo, da mesma forma que no passo 2.
 6. A última é uma caixinha de marcar, em que você pode decidir. Caso marcado ele irá para a outra aba aguardar o momento para dar o play, caso desmarcado ele irá apenas calcular e te entregar o momento certo para dar o play.
